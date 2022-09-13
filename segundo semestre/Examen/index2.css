@@ -1,0 +1,173 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    height: 100vh;
+}
+
+.body1{
+height: 100%;
+align-items: center;
+align-content: center;
+background-size: cover;
+background-color: rgb(34, 34, 255);
+background-repeat: no-repeat;
+background-position: center;
+}
+
+
+.Logo{
+    border: solid 1px transparent;
+    background-image: url(./Logo_Examen.png);
+    height: 5vh;
+    width: 5vh;
+    background-size: cover;
+    background-position: center;
+    float: left;
+}
+
+.Logo:hover{
+    border-color: rgb(113, 15, 179);
+    background-color: purple;
+    color: blueviolet;
+}
+
+
+.Perfil{
+    border: solid 1px transparent;
+    background-image: url(./Perfil.png);
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.Titulo{
+    text-align:left;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: large;
+    height: 5vh;
+    background-color:rgba(31, 28, 116, 0.733);
+    align-items: center;
+    font-size: 4.5vh;
+    color: blueviolet;
+    
+}
+
+.Cat1{
+    float: left;
+}
+
+.Cuerpo1{  
+    float: left;
+    display: grid;
+    grid-template-rows:  1fr 9fr;
+    grid-template-columns:1fr 7fr ;
+    grid-template-areas:    "Logo Titulo Titulo" 
+                            "Lista Lista Perfil";
+    grid-gap: .75em;        
+    height: 85vh;
+    width: 200vh;
+}
+
+
+
+
+.Cuadro{
+    margin-top: 2.5vh;
+    height: 90vh;
+    width: 35vh;
+    align-items: center;
+    
+    padding: vh;
+    background-color: rgba(81, 67, 212, 0.26);
+    border-radius: 0px;
+    display: flex;
+    justify-items: center;
+    align-items:center;
+    grid-template-areas:  "Img";
+    border: solid 1px transparent;
+    float: left;
+    
+}
+
+.Cuadro:hover{
+    border-color: rgb(113, 15, 179);
+   
+}
+.Lista{
+    background-image: url(./Lista.png);
+    border: solid 1px transparent;
+    height: 95vh;
+    width: 35vh;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.Cuadro2{
+    align-items: center;
+    align-self: center;
+    height: 25vh;
+    width: 40vh;
+    align-items: center;
+    
+    padding: 4vh;
+    background-color: rgba(81, 67, 212, 0.26);
+    border-radius: 10px;
+    display: flex;
+    justify-items: center;
+    align-items:center;
+    grid-template-areas:  "Img";
+    border: solid 1px transparent;
+    
+}
+
+.Cuadro2:hover{
+    border-color: rgb(113, 15, 179);
+   
+}
+
+
+.Cuerpo2{
+    height: 45vh;
+    background-size: cover;
+    background-position: center;
+    display: grid;
+    
+    grid-template-columns:minmax(33.3%, 33.3%) 1fr 1fr;
+    float: none;
+    align-items: center;
+}
+
+.Cuadro_none{
+    height: 30vh;
+    width: 30vh;
+    align-items: center;
+    
+    padding: 5vh;
+    background-color: rgba(81, 67, 212, 0);
+    border-radius: 10px;
+    display: flex;
+    justify-items: center;
+    align-items:center;
+    grid-template-areas:  "Img";
+    border: solid 1px transparent;
+    
+}
+
+
+.Public{
+
+    background-image: url(./Public.png);
+    border: solid 1px transparent;
+    border-radius: 5px;
+    margin: 1vh;
+    height: 65%;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+

@@ -1,0 +1,114 @@
+
+.Titulo{
+    text-align:left;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: large;
+    height: 5vh;
+    background-color:rgba(31, 28, 116, 0.733);
+    align-items: center;
+    font-size: 4.5vh;
+    color: blueviolet;
+    
+}
+
+.Logo{
+    border: solid 1px transparent;
+    background-image: url(./Logo_Examen.png);
+    height: 5vh;
+    width: 5vh;
+    background-size: cover;
+    background-position: center;
+    float: left;
+}
+
+.Logo:hover{
+    border-color: rgb(113, 15, 179);
+    background-color: purple;
+    color: blueviolet;
+}
+
+body{
+    background-color: rgb(65, 64, 64);
+    height: 100%;
+align-items: center;
+align-content: center;
+background-size: cover;
+
+background-repeat: no-repeat;
+background-position: center;
+}
+
+
+.Contenedor{
+width: 98%;
+max-width: 1200px;
+
+display: grid;
+grid-template-columns: 1fr 1fr;
+gap: 20px;
+
+
+}
+
+
+
+.Publicidad{
+background-image: url(./Publicidad.png);
+height: 1fr;
+width: 1fr;
+    
+   padding: 40px;
+    border: solid 1px transparent;
+
+    mask-repeat: no-repeat;
+
+    
+
+    height: 100vh;
+    width: 28vh;
+    align-items: center;
+    
+    
+   
+   
+    justify-items: center;
+    
+    
+    
+    background-repeat: no-repeat;
+   
+    
+    
+
+    }
+
+    
+.Texto{
+    
+    height: 1fr;
+    width: 1fr;
+        
+       padding: 40px;
+        border: solid 1px transparent;
+    
+        mask-repeat: no-repeat;
+    
+        
+    
+        height: 150vh;
+        width: 150vh;
+        align-items: center;
+        
+        
+       
+       
+        justify-items: center;
+        
+        
+        
+        background-repeat: no-repeat;
+       
+    background-image: url(./Texto.png);
+    
+
+    }

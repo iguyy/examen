@@ -1,0 +1,301 @@
+
+
+.Titulo{
+    text-align:left;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: large;
+    height: 5vh;
+    background-color:rgba(31, 28, 116, 0.733);
+    align-items: center;
+    font-size: 4.5vh;
+    color: blueviolet;
+    
+}
+
+.Logo{
+    border: solid 1px transparent;
+    background-image: url(./Logo_Examen.png);
+    height: 5vh;
+    width: 5vh;
+    background-size: cover;
+    background-position: center;
+    float: left;
+}
+
+.Logo:hover{
+    border-color: rgb(113, 15, 179);
+    background-color: purple;
+    color: blueviolet;
+}
+
+body{
+    background-image: url(./pexels-aleksandar-pasaric-1820770.jpg);
+    height: 100%;
+align-items: center;
+align-content: center;
+background-size: cover;
+
+background-repeat: no-repeat;
+background-position: center;
+}
+
+
+.Contenedor{
+width: 98%;
+max-width: 1200px;
+margin: auto;
+padding: 48px 0;
+
+display: grid;
+grid-template-columns: 1fr 1fr;
+gap: 20px;
+
+align-items: center;
+align-content: center;
+background-size: cover;
+
+background-repeat: no-repeat;
+background-position: center;
+
+}
+
+.Catalogo{
+    align-items: center;
+display: grid;
+grid-template-columns: repeat(3, 1fr );
+gap: 20px;
+
+margin: 50%;
+
+    
+}
+
+.juego1{
+    
+    border-radius: 10px;
+    min-height: 50px;
+    min-width: 50px;
+
+    max-width: 70px;
+    max-height: 70px;
+    font-weight: bold;
+    padding: 20px;
+    position: relative;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center center;
+background-image: url(./Juego1.png);    border: solid 1px transparent;
+
+    }
+    
+    .juego1:hover{
+        border-color: rgb(113, 15, 179);
+        background-color: purple;
+        color: blueviolet;
+    }
+.juego2{
+    
+    border-radius: 10px;
+    min-height: 50px;
+    min-width: 50px;
+
+    max-width: 70px;
+    max-height: 70px;
+    font-weight: bold;
+    padding: 20px;
+    position: relative;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center center;
+    background-image: url(./Juego2.png);    
+border: solid 1px transparent;
+
+    }
+    
+    .juego2:hover{
+        border-color: rgb(113, 15, 179);
+        background-color: purple;
+        color: blueviolet;
+    }
+
+    
+.juego3{
+    
+    border-radius: 10px;
+    min-height: 50px;
+    min-width: 50px;
+
+    max-width: 70px;
+    max-height: 70px;
+    font-weight: bold;
+    padding: 20px;
+    position: relative;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center center;
+    background-image: url(./Juego3.png);
+    border: solid 1px transparent;
+
+    }
+    
+    .juego3:hover{
+        border-color: rgb(113, 15, 179);
+        background-color: purple;
+        color: blueviolet;
+    }
+
+    
+.juego4{
+    
+    border-radius: 10px;
+    min-height: 50px;
+    min-width: 50px;
+
+    max-width: 70px;
+    max-height: 70px;
+    font-weight: bold;
+    padding: 20px;
+    position: relative;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center center;
+    background-image: url(./Juego4.png);    
+    border: solid 1px transparent;
+
+}
+
+.juego4:hover{
+    border-color: rgb(113, 15, 179);
+    background-color: purple;
+    color: blueviolet;
+}
+
+    
+.juego5{
+    
+    border-radius: 10px;
+    min-height: 50px;
+    min-width: 50px;
+
+    max-width: 70px;
+    max-height: 70px;
+    font-weight: bold;
+    padding: 20px;
+    position: relative;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center center;
+    background-image: url(./Juego5.png);    
+    border: solid 1px transparent;
+
+}
+
+.juego5:hover{
+    border-color: rgb(113, 15, 179);
+    background-color: purple;
+    color: blueviolet;
+}
+
+    
+.juego6{
+    
+    border-radius: 10px;
+    min-height: 50px;
+    min-width: 50px;
+
+    max-width: 70px;
+    max-height: 70px;
+    font-weight: bold;
+    padding: 20px;
+    position: relative;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center center;
+    background-image: url(./Juego6.png);
+    border: solid 1px transparent;
+
+    }
+    
+    .juego6:hover{
+        border-color: rgb(113, 15, 179);
+        background-color: purple;
+        color: blueviolet;
+    }
+
+    
+.juego7{
+    
+    border-radius: 10px;
+    min-height: 50px;
+    min-width: 50px;
+
+    max-width: 70px;
+    max-height: 70px;
+    font-weight: bold;
+    padding: 20px;
+    position: relative;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center center;
+    background-image: url(./Juego7.png);    
+    border: solid 1px transparent;
+
+}
+
+.juego7:hover{
+    border-color: rgb(113, 15, 179);
+    background-color: purple;
+    color: blueviolet;
+}
+
+    
+.juego8{
+    
+    border-radius: 10px;
+    min-height: 50px;
+    min-width: 50px;
+
+    max-width: 70px;
+    max-height: 70px;
+    font-weight: bold;
+    padding: 20px;
+    position: relative;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center center;
+    background-image: url(./Juego8.png);
+    border: solid 1px transparent;
+
+    }
+    
+    .juego8:hover{
+        border-color: rgb(113, 15, 179);
+        background-color: purple;
+        color: blueviolet;
+    }
+
+    
+.juego9{
+    
+    border-radius: 10px;
+    min-height: 50px;
+    min-width: 50px;
+
+    max-width: 70px;
+    max-height: 70px;
+    font-weight: bold;
+    padding: 20px;
+    position: relative;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center center;
+    background-image: url(./Juego9.png); 
+    border: solid 1px transparent;
+
+}
+
+.juego9:hover{
+    border-color: rgb(113, 15, 179);
+    background-color: purple;
+    color: blueviolet;
+}

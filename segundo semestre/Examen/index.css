@@ -1,0 +1,222 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    height: 100vh;
+}
+
+.body1{
+height: 100%;
+align-items: center;
+align-content: center;
+background-size: cover;
+background-image:url(./pexels-wolfram-k-745243.jpg) ;
+background-repeat: no-repeat;
+background-position: center;
+}
+
+.body2{
+
+
+
+    height: 72vh;
+    display: grid;
+    grid-template-rows: 5vh 20vh 75vh;
+    grid-template-columns:  30% 70%   ; 
+    grid-template-areas:    "Titulo Titulo Titulo"    
+                            "CuadroAmigos Perfil Perfil"
+
+    }
+
+.Logo:hover{
+    border-color: rgb(113, 15, 179);
+    background-color: purple;
+    color: blueviolet;
+}
+
+
+.Logo{
+    border: solid 1px transparent;
+    background-image: url(./Logo_Examen.png);
+    height: 5vh;
+    width: 5vh;
+    background-size: cover;
+    background-position: center;
+    float: left;
+}
+
+.Titulo{
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: large;
+    height: 5vh;
+    background-color:rgba(31, 28, 116, 0.733);
+    align-items: center;
+    font-size: 4.5vh;
+    color: blueviolet;
+    
+}
+
+.Cat1{
+    float: left;
+}
+
+.Cuerpo1{
+    height: 45vh;
+    background-size: cover;
+    background-position: center;
+    display: grid;
+    
+    grid-template-columns:minmax(33.3%, 33.3%) 1fr 1fr;
+    float: none;
+    align-items: center;
+}
+
+
+.Cuerpo3{
+    height: 72vh;
+    display: grid;
+    grid-template-rows: 1fr 6fr;
+    grid-template-columns: 2fr 4fr; 
+    grid-template-areas:    "Titulo Titulo"    "CuadroAmigos Perfil"
+
+}
+
+
+
+.CuadroAmigos{
+    grid-area: CuadroAmigos;
+
+
+    height: 100%;
+    width: fr;
+    align-items: center;
+    
+    padding: 80px;
+    background-image: url(./Lista.png);
+    border-radius: 10px;
+    justify-items:left;
+    grid-template-areas:  "Img";
+    float: left;
+}
+
+
+.Cuadro{
+    height: 30vh;
+    width: 30vh;
+    align-items: center;
+    
+    padding: 5vh;
+    background-color: rgba(81, 67, 212, 0.26);
+    border-radius: 10px;
+    display: flex;
+    justify-items: center;
+    align-items:center;
+    grid-template-areas:  "Img";
+    border: solid 1px transparent;
+    
+}
+
+.Cuadro:hover{
+    border-color: rgb(113, 15, 179);
+   
+}
+.Home{
+    background-image: url(./Home.png);
+    border: solid 1px transparent;
+    margin: 1vh;
+    height: 29vh;
+    width: 29vh;
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+.Clip{
+    background-image: url(./Play.png);
+    border: solid 1px transparent;
+    margin: 1vh;
+    height: 29vh;
+    width: 29vh;
+    background-size: cover;
+    background-position: center;
+
+
+}
+
+.Play{
+    background-image: url(./Clip.png);
+    border: solid 1px transparent;
+    margin: 1vh;
+    height: 29vh;
+    width: 29vh;
+    background-size: cover;
+    background-position: center;
+
+
+}
+
+.Cuadro2{
+    align-items: center;
+    align-self: center;
+    height: 25vh;
+    width: 40vh;
+    align-items: center;
+    
+    padding: 4vh;
+    background-color: rgba(81, 67, 212, 0.26);
+    border-radius: 10px;
+    display: flex;
+    justify-items: center;
+    align-items:center;
+    grid-template-areas:  "Img";
+    border: solid 1px transparent;
+    
+}
+
+.Cuadro2:hover{
+    border-color: rgb(113, 15, 179);
+   
+}
+
+
+.Cuerpo2{
+    height: 45vh;
+    background-size: cover;
+    background-position: center;
+    display: grid;
+    
+    grid-template-columns:minmax(33.3%, 33.3%) 1fr 1fr;
+    float: none;
+    align-items: center;
+}
+
+.Cuadro_none{
+    height: 30vh;
+    width: 30vh;
+    align-items: center;
+    
+    padding: 5vh;
+    background-color: rgba(81, 67, 212, 0);
+    border-radius: 10px;
+    display: flex;
+    justify-items: center;
+    align-items:center;
+    grid-template-areas:  "Img";
+    border: solid 1px transparent;
+    
+}
+.Public{
+
+    background-image: url(./Public.png);
+    border: solid 1px transparent;
+    border-radius: 5px;
+    margin: 1vh;
+    height: 65%;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+

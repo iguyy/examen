@@ -1,0 +1,109 @@
+:root{
+    --cabecera: green;
+    --pie: black;
+    --lateral: linear-gradient(90deg, #333, #555);
+    --div: radial-gradient(#222,#666);
+    --esfera: radial-gradient(#f00);
+}
+
+.esfera{
+    height: 3rem;
+    width: 3rem;
+background-color: var(--esfera);
+border-radius: 1.5rem;
+position: absolute;
+animation: movimiento 3s linear infinite;
+top: 0;
+left:48%;
+}
+
+@keyframes movimiento{
+    12%{
+        transform: scale(2);
+    }
+    25%{
+        top: 48%;
+        left: 91%;
+        background-color: blue;
+        transform: scale(1);
+    }
+    50%{
+        top: 91%;
+        left: 48%;
+        background-color: green;
+        transform: scale(.5);
+        border-radius: 0%;
+    }
+    75%{
+        top: 91%;
+        left: 48%;
+        background-color: plum;
+    }
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: fantasy;
+
+}
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+h1{
+    align-self: center;
+}
+
+h1:hover{
+    color: green;
+   font-size: 3rem;
+}
+
+div{
+    height: 1rem;
+    width: 1rem;
+    background-color: brown;
+}
+
+div:hover{
+    transform: scale(5);
+}
+
+body{
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 1fr 6fr 1 fr;
+
+}
+
+header{
+    background-color: var(--cabecera);
+    display: grid;
+    grid-template-columns: 1rem 1rem;
+
+}
+aside{
+    background-color: var(--lateral);
+}
+
+.container{
+    background-image: var(--div);
+    position: relative;
+}
+
+footer{
+
+    background-color: var(--pie);
+}
+
+.logo{
+
+    background-image: none;
+    height: 3rem;
+    width: 3rem;
+    background-size: cover;
+    align-self: center;
+}

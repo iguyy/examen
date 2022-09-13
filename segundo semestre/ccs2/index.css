@@ -1,0 +1,24 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+div{
+background-color: rgb(161, 161, 161);
+height: 100vh;
+padding: 40px;
+}
+
+.b{
+    background-color: rgb(255, 255, 255);
+    height: 30%;
+    width: 50%;
+
+    border-radius: 15px;
+    box-shadow: rgb(102, 226, 44) 10px 0px 15px 10px;
+    background-size: contain;
+    background-image: url("./Logo_Xbox.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+

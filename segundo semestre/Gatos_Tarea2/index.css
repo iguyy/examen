@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+.Titulo{
+    font-style: italic;
+    font-size: larger;
+    height: 5vh;
+    background-color: rgb(211, 248, 78);
+    align-items: center;
+}
+
+.Logo{
+    background-image: url(./Logo_Gato.png);
+    border-radius: 5px;
+    height: 5vh;
+    width: 5vh;
+    background-size: cover;
+    background-position: center;
+    float: left; 
+}
+
+.Cat{
+    font-size: larger;
+    float: left;
+}
+.Home{
+    font-size: larger;
+    float: left;
+}
+
+body{
+    background-color: rgb(245, 12, 12);
+    height: 90vh;
+}
+
+.G1{
+    float: left;
+    font-size: 50px;
+    width: 50%;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    justify-items: center;
+    align-items:center;
+}
+
+.gato_Imagen1{
+    background-image: url(./Gatos1.jpg);
+    border-radius: 10px;
+    height: 90%;
+    width: 70%;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.G2{
+    float: left;
+    height: 30%;
+    width: 50%;
+    margin: 10px;
+    padding: 10px;
+    background-color: rgb(81, 67, 212);
+    border-radius: 10px;
+    display: flex;
+    justify-items: center;
+    align-items:center;
+    box-shadow: 3px 3px 30px rgb(22, 22, 22);
+    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:    "gato_Imagen2";
+
+}
+
+.gato_parrafo2{
+    padding: 15px;
+}
+
+.gato_Imagen2{
+    background-image: url(./Gatos2.jpg);
+    border-radius: 10px;
+    height: 100%;
+    width: 60%;
+    background-size: cover;
+    background-position: center;
+}
+
+.gato_parrafo3{
+    padding: 15px;
+}
+
+.G3{
+    float: left;
+    height: 30%;
+    width: 50%;
+    margin: 10px;
+    padding: 10px;
+    background-color: rgb(81, 67, 212);
+    border-radius: 10px;
+    display: flex;
+    justify-items: center;
+    align-items:center;
+    box-shadow: 3px 3px 30px rgb(22, 22, 22);
+    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:    "gato_Imagen3"
+                            "gato_parrafo3";
+}
+
+.gato_Imagen3{
+    background-image: url(./Gatos3.jpg);
+    border-radius: 10px;
+    height: 90%;
+    width: 70%;
+    background-size: cover;
+    background-position: center;
+}

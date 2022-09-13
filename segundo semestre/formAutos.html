@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Autos</title>
+</head>
+<body>
+    <h1>Datos del Auto</h1>
+    <form method="post" action="./regAutos.php">
+        <fieldset>
+            
+            <label>Marca:</label> <input type="text" name="marca" id="marca" required> <br><br>
+            <label>Modelo:</label> <input type="text" name="modelo" id="modelo" required> <br><br>
+            <label>Año:</label> <input type="number" name="anio" id="anio" required> <br><br>
+            <label>Transmisión:</label> <select name="trans" id="trans">
+             <option value="1">Automático</option>
+             <option value="0">Estándar</option>
+            </select><br><br>
+            <label>Puertas:</label> <input type="number" name="puertas" id="puertas" required> <br><br>
+            <label>Color:</label> <input type="text" name="color" id="color" required> <br><br>
+            <input type="submit" id="submit" name="submit" value="Registrar">
+            <input type="reset" id="reset" name="reset" value="Borrar datos">
+        </fieldset>
+        
+    </form>
+</body>
+</html>

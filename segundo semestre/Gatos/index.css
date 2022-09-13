@@ -1,0 +1,34 @@
+body{
+    height: 100vh;
+    background-color: aqua;
+    display: grid;
+    justify-items: center;
+    align-items:center;
+}
+
+main{
+    height: 80%;
+    width: 80%;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    box-shadow: 3px 3px 30px violet;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:    "gato titulo"
+                            "gato parrafo";
+}
+
+.imgato{
+    background-image: url("./gatos.jpg");
+    height: 85%;
+    width: 70%;
+    background-size: cover;
+    background-position: center;
+}
+
+.datos{
+    padding: 20px;
+    justify-content: center;
+    align-items: centerS;
+}

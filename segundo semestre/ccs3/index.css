@@ -1,0 +1,62 @@
+.back{
+    height: 300vh;
+    background-color: darkkhaki;
+}
+
+.back2{
+    height: 100vh;
+    background-color: darksalmon;
+
+    
+}
+
+.a{
+     background-color: red;
+    float: right;
+    clear: left none;
+    height: 50px;
+    width: 50px;
+    box-shadow: black 1px 1px 3px;
+    margin: 10px;
+    border-radius: 5px;
+
+}
+
+.b{
+    background-color: blue;
+    float: left;
+    clear: right none;
+    height: 50px;
+    width: 50px;
+    box-shadow: black 1px 1px 3px;
+    margin: 10px;
+    border-radius: 5px;
+
+}
+
+.c{
+    background-color: chartreuse;
+    float: right;
+    clear: left;
+    height: 50px;
+    width: 50px;
+    box-shadow: black 1px 1px 3px;
+    margin: 10px;
+    border-radius: 5px;
+    
+}
+
+.sticky{
+
+    position: fixed;
+    position:sticky;
+    top: 30px;
+    left: 60px;
+    background-color:darkgoldenrod;
+    z-index: 3;
+    height: 50px;
+    width: 50px;
+    box-shadow: black 1px 1px 3px;
+    margin: 10px;
+    border-radius: 5px;
+}

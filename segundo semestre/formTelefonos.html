@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="colorcitostelefono.css">
+    <title>Celulares</title>
+</head>
+<body>
+    <h1>Datos del celular</h1>
+    <form action="regTelefonos.php" method="post">
+        <fieldset>
+        <legend>Registro para compra de télefono</legend>
+        <label for="marca">Marca: </label> <input type="text" name="marca" id="marca" required><br><br>
+        <label for="modelo">Modelo: </label> <input type="text" name="modelo" id="modelo" required><br><br>
+        <label for="color">Color: </label> <input type="text" name="color" id="color" required><br><br>
+        <label for="almac">Almacenamiento: </label>
+        <select name="almac" id="almac">
+            <option value="16">16 GB</option>
+            <option value="32">32 GB</option>
+            <option value="64">64 GB</option>
+            <option value="128">128 GB</option>
+            <option value="256">256 GB</option>
+        </select> <br><br>
+        <fieldset>
+        <label for="res">Resolución de la cámara: <br></label> <input type="radio" name="12mp" id="12mp"> <label for="12mp">12 MP</label><br> <input type="radio" name="10mp" id="10mp"> <label for="10mp">10 MP</label> <br><br>
+        <label for="audif">Audífonos: </label> <br> <input type="checkbox" name="audifsi" id="audifsi"> Incluir <br> <input type="checkbox" name="audifno" id="audifno"> No incluir <br><br>
+        </fieldset> <br>
+            <input type="submit" id="submit" name="submit" value="Enviar">
+            <input type="reset" id="re" name="re" value="Borrar Datos">
+        </fieldset>
+
+    </form>
+    
+</body>
+</html>

@@ -1,0 +1,26 @@
+.back{
+    height: 300vh;
+    background-color: burlywood;
+}
+.container{
+    height: 200px;
+    width: 300px;
+    background-color: red;
+    border-radius: 20px;
+    box-shadow: black 3px 3px 17px;
+    margin: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.container>div{
+    height: 50px;
+    width: 50px;
+    background-color: blueviolet;
+    border: solid black 1px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}

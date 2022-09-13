@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.Titulo{
+    text-align: center;
+    font-style: italic;
+    font-size: larger;
+    height: 5vh;
+    background-color: aqua;
+    align-items: center;
+}
+body{
+    background-color: blue;
+    height: 90vh;
+}
+
+.G1{
+    height: 30%;
+    margin: 10px;
+    padding: 10px;
+    background-color: aquamarine;
+    border-radius: 10px;
+    display: grid;
+    justify-items: center;
+    align-items:center;
+    box-shadow: 3px 3px 30px rgb(22, 22, 22);
+    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:    "gato_Imagen1"
+                            "gato_parrafo1";
+}
+
+.gato_Imagen1{
+    background-image: url(./Gatos1.jpg);
+    border-radius: 10px;
+    height: 90%;
+    width: 70%;
+    background-size: cover;
+    background-position: center;
+}
+
+.G2{
+    height: 30%;
+    margin: 10px;
+    padding: 10px;
+    background-color: aquamarine;
+    border-radius: 10px;
+    display: grid;
+    justify-items: center;
+    align-items:center;
+    box-shadow: 3px 3px 30px rgb(22, 22, 22);
+    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:    "gato_parrafo2"
+                            "gato_Imagen2";
+
+}
+
+.gato_Imagen2{
+    background-image: url(./Gatos2.jpg);
+    border-radius: 10px;
+    height: 100%;
+    width: 60%;
+    background-size: cover;
+    background-position: center;
+}
+
+.G3{
+    height: 30%;
+    margin: 10px;
+    padding: 10px;
+    background-color: aquamarine;
+    border-radius: 10px;
+    display: grid;
+    justify-items: center;
+    align-items:center;
+    box-shadow: 3px 3px 30px rgb(22, 22, 22);
+    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:    "gato_Imagen3"
+                            "gato_parrafo3";
+}
+
+.gato_Imagen3{
+    background-image: url(./Gatos3.jpg);
+    border-radius: 10px;
+    height: 90%;
+    width: 70%;
+    background-size: cover;
+    background-position: center;
+}
